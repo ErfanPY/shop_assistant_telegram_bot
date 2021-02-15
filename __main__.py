@@ -23,7 +23,7 @@ orders = {}
 
 def main():
     dotenv.load_dotenv()
-    TOKEN = os.environ["MEMBER_BOT_TOKEN"]
+    TOKEN = os.environ["BOT_TOKEN"]
     updater = Updater(TOKEN)
 
     conv_handler = ConversationHandler(

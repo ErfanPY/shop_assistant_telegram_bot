@@ -10,8 +10,8 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler,
                           MessageHandler, Updater)
 from telegram.ext.filters import Filters
 
-from member_bot.config import Config
-from member_bot.handlers import *
+from config import Config
+from handlers import *
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG

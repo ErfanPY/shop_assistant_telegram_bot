@@ -6,7 +6,7 @@ from telegram import (ForceReply, InlineKeyboardButton, InlineKeyboardMarkup,
 from telegram.ext import (CallbackContext, CallbackQueryHandler,
                           CommandHandler, Handler, MessageHandler, Updater)
 
-from member_bot.config import Config
+from config import Config
 
 class Steps:
     PRODUCT_COUNT_STEP, ORDER_CONFIRM_STEP, PAYMENT_VERIFY_STEP, SUCCESSFUL_PAYMENT_STEP = ["PRODUCT_ORDER_STEP_"+str(i) for i in range(4)]

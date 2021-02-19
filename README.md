@@ -11,7 +11,7 @@ you can get a bot token from [botfather telegram bot](https://t.me/botfather)
 
 I'll use [python-telegram-bot](https://pypi.org/project/python-telegram-bot/) for making this bot.
 
-`pip install python-telegram-bot`
+`pip install -r requirement.txt`
 
 ## run
 `python main.py`
